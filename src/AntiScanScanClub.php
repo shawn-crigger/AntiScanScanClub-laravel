@@ -1,6 +1,6 @@
 <?php
 
-namespace noobsec\AntiScanScanClub;
+namespace challengerplatform\AntiScanScanClub;
 
 use Illuminate\Foundation;
 use Illuminate\Http\Request;
@@ -28,7 +28,7 @@ class AntiScanScanClub
     /**
      * @var constant string REMOTE_REPO
      */
-    private const REMOTE_REPO = "https://github.com/noobsec/AntiScanScanClub-laravel";
+    private const REMOTE_REPO = "https://github.com/challenger-platform/AntiScanScanClub-laravel";
 
     /**
      * @var constant string FILTER_FILES_MD5
