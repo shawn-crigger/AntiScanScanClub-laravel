@@ -1,6 +1,6 @@
 <?php
 
-namespace noobsec\AntiScanScanClub;
+namespace challengerplatform\AntiScanScanClub;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
