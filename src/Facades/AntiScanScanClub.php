@@ -1,6 +1,6 @@
 <?php
 
-namespace noobsec\AntiScanScanClub\Facades;
+namespace challengerplatform\AntiScanScanClub\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
