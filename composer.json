@@ -1,5 +1,5 @@
 {
-    "name": "noobsec/antiscanscanclub-laravel",
+    "name": "challenger-platform/antiscanscanclub-laravel",
     "description": "A Laravel Package to Block Automated Scanners from Scanning your Site",
     "license": "MIT",
     "authors": [
@@ -7,9 +7,14 @@
             "name": "noobSecurity",
             "email": "root@noobsec.org",
             "homepage": "https://noobsec.org"
-        }
+        },
+        {
+            "name": "Tomas Stan",
+            "email": "tomas.stan@enga.systems",
+            "homepage": "https://challengerplatform.com"
+        }, 
     ],
-    "homepage": "https://github.com/noobsec/AntiScanScanClub-laravel",
+    "homepage": "https://github.com/challenger-platform/AntiScanScanClub-laravel",
     "keywords": ["Laravel", "AntiScanScanClub", "noobSecurity", "noobsec"],
     "require": {
         "illuminate/support": "^5"
@@ -22,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "noobsec\\AntiScanScanClub\\": "src/"
+            "challenger-platform\\AntiScanScanClub\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "noobsec\\AntiScanScanClub\\Tests\\": "tests"
+            "challenger-platform\\AntiScanScanClub\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "noobsec\\AntiScanScanClub\\AntiScanScanClubServiceProvider"
+                "challenger-platform\\AntiScanScanClub\\AntiScanScanClubServiceProvider"
             ],
             "aliases": {
-                "AntiScanScanClub": "noobsec\\AntiScanScanClub\\Facades\\AntiScanScanClub"
+                "AntiScanScanClub": "challenger-platform\\AntiScanScanClub\\Facades\\AntiScanScanClub"
             }
         }
     }
