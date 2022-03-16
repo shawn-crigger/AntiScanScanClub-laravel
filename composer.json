@@ -27,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "challenger-platform\\AntiScanScanClub\\": "src/"
+            "challengerplatform\\AntiScanScanClub\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "challenger-platform\\AntiScanScanClub\\Tests\\": "tests"
+            "challengerplatform\\AntiScanScanClub\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "challenger-platform\\AntiScanScanClub\\AntiScanScanClubServiceProvider"
+                "challengerplatform\\AntiScanScanClub\\AntiScanScanClubServiceProvider"
             ],
             "aliases": {
-                "AntiScanScanClub": "challenger-platform\\AntiScanScanClub\\Facades\\AntiScanScanClub"
+                "AntiScanScanClub": "challengerplatform\\AntiScanScanClub\\Facades\\AntiScanScanClub"
             }
         }
     }
