@@ -12,7 +12,7 @@
             "name": "Tomas Stan",
             "email": "tomas.stan@enga.systems",
             "homepage": "https://challengerplatform.com"
-        }, 
+        }
     ],
     "homepage": "https://github.com/challenger-platform/AntiScanScanClub-laravel",
     "keywords": ["Laravel", "AntiScanScanClub", "noobSecurity", "noobsec"],
